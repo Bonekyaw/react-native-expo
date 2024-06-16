@@ -3,7 +3,7 @@
 You can use it for your project. If it is useful for you,
 don't forget to give me a **GitHub star**, please.
 
-In this node/express template ...   
+In this react-native Expo template ...   
 Please wait a moment. I will write in detail.  
 
 #### Find more other Starter kits of mine ?
