@@ -37,7 +37,7 @@ export default function QueryScreen() {
   // And then it can be taken anywhere.
 
   const token =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGM3MmVmOWRjOTI5NDI1ZDg1NjdiMSIsImlhdCI6MTcxODUxMjAxMywiZXhwIjoxNzE4NTE1NjEzfQ.pUjzaHAyl4JgBISjrhGjklmAHvx9FyChXa23E5htOLE";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGM3MmVmOWRjOTI5NDI1ZDg1NjdiMSIsImlhdCI6MTcxODUxNjQ0NywiZXhwIjoxNzE4NTIwMDQ3fQ.vrIeajcYNk4KueR4roK78f2Bc_yqYjfR9eIXtYg7Ht8";
 
   const { loading, error, data } = useQuery(paginate, {
     variables: { limit: 3, page: 1 },

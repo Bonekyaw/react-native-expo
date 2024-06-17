@@ -1,12 +1,28 @@
-# This is React Native Expo Starter Kits  
+# This is React Native Expo Starter Kits
 
-You can use it for your project. If it is useful for you,
-don't forget to give me a **GitHub star**, please.
+This is for Mobile Application Development. It can be used for developing a production app as well as learning how to do.  
+If you find it useful, give me a **GitHub star**, please.
 
-In this react-native Expo template ...   
-Please wait a moment. I will write in detail.  
+In this template, you will see ...
 
-#### Find more other Starter kits of mine ?
+- Expo framework
+- Redux toolkit
+- RTK query
+- React query
+- expo router navigation
+- FlashList ( @shopify )
+- React context
+- expo secure store
+- Lottie animation
+- Skeleton
+- react hook form
+- Authentication
+- Custom Font
+- Dark mode
+- Rest api client
+- graphql client ( Apollo client ) etc.
+
+## Find more other Starter kits of mine ?
 
 `My Kits For REST Api`
 
@@ -22,4 +38,70 @@ Please wait a moment. I will write in detail.
  [Express + Prisma ORM + graphql js SDL modulerized - graphql api](https://github.com/Bonekyaw/node-express-graphql-prisma)  
  [Express + Apollo server + mongoose - graphql api](https://github.com/Bonekyaw/node-express-apollo-nosql)  
  [Express + graphql js + mongoose - graphql api](https://github.com/Bonekyaw/node-express-nosql-graphql)  
- [Express + graphql js + sequelize ORM - graphql api](https://github.com/Bonekyaw/node-express-sql-graphql) - Now you are here
+ [Express + graphql js + sequelize ORM - graphql api](https://github.com/Bonekyaw/node-express-sql-graphql)
+
+`Mobile Application Development`
+
+[React Native Expo](https://github.com/Bonekyaw/react-native-expo) - Now you are here
+
+`Upcoming Starter Kits`
+
+- [Next js FullStack Starter Kits](https://github.com/Bonekyaw)
+- [Nest js FullStack Starter Kits](https://github.com/Bonekyaw)
+
+( Now I'm on the way of these two Starter Kits. Stay tuned, please. )
+
+### Requirements
+
+- [Environment Setup](https://reactnative.dev/docs/set-up-your-environment)
+
+#### Is setting up my environment required?
+
+> Setting up your environment is not required if you're using a Framework. With a React Native Framework, you don't need to setup Android Studio or XCode as a Framework will take care of building the native app for you.
+
+> If you have constraints that prevent you from using a Framework, or you'd like to write your own Framework, then setting up your local environment is a requirement. After your environment is set up, learn how to get started without a framework.
+
+But my recommendation is that you should set up if possible. Then you can build your app using eas-build as well as xcode or android studio.
+
+See [here](https://docs.expo.dev/deploy/build-project/) to learn how to deploy.
+
+#### How to run Starter Kits
+
+First of all, you should git clone.
+
+```bash
+git clone https://github.com/Bonekyaw/react-native-expo.git
+cd react-native-expo
+rm -rf .git
+npm install
+npm start
+```
+
+Now, you can start your project by running:
+
+```bash
+npx expo start
+```
+
+> To view your app on a mobile device, we recommend starting with Expo Go. As your application grows in complexity and you need more control, you can create a development build.
+
+>    Open the project in a web browser by pressing w in the Terminal UI. Press a for Android (Android Studio is required), or i for iOS (macOS with Xcode is required).
+
+Or you can create a new expo app by running:
+```bash
+npx create-expo-app@latest
+```
+And then you can copy files or codes in Starter Kits. Don't forget to install packages manually.  
+
+If you are a burmese developer, you should watch my explanation video on YouTube. [Here](https://youtu.be/v5X3uMJJWAY)
+
+If you need a graphql api server to test, I provided the whole Starter Kits. See above `My Kits For Graphql Api`.  
+
+I promise new features will come in the future if I have much time.
+
+If you have something hard to solve,
+DM  
+<phonenai2014@gmail.com>  
+<https://www.facebook.com/phonenyo1986/>  
+<https://www.linkedin.com/in/phone-nyo-704596135>  
+<https://www.youtube.com/@CodecafeLab>

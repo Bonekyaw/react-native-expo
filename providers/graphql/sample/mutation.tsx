@@ -30,7 +30,7 @@ export default function MutationScreen() {
     <ThemedView style={styles.container}>
       <Pressable
         style={styles.button}
-        onPress={() => registerByPhone({ variables: { phone: "09778661234" } })}
+        onPress={() => registerByPhone({ variables: { phone: "09778661235" } })}
       >
         <ThemedText style={styles.buttonText}>Click To Call graphql API</ThemedText>
       </Pressable>
