@@ -24,7 +24,15 @@ In this template, you will see ...
 
 ## Find more other Starter kits of mine ?
 
-`My Kits For REST Api`
+`Nest JS for REST Api`
+
+[Nest JS + Prisma ORM - REST api](https://github.com/Bonekyaw/nest-prisma-sql-rest)
+
+`Nest JS for Graphql Api`
+
+[Nest JS + Prisma ORM - Graphql api](https://github.com/Bonekyaw/nest-prisma-graphql)
+
+`Node Express JS For REST Api`
 
 [Express + Prisma ORM + mongodb - rest api](https://github.com/Bonekyaw/node-express-prisma-mongodb)  
  [Express + Prisma ORM + SQL - rest api](https://github.com/Bonekyaw/node-express-prisma-rest)  
@@ -32,7 +40,7 @@ In this template, you will see ...
  [Express + mongoose ODM - rest api](https://github.com/Bonekyaw/node-express-nosql-rest)  
  [Express + sequelize ORM - rest api](https://github.com/Bonekyaw/node-express-sql-rest)
 
-`My Kits For Graphql Api`
+`Node Express JS For Graphql Api`
 
 [Apollo server + Prisma ORM + SDL modulerized - graphql api](https://github.com/Bonekyaw/apollo-graphql-prisma)  
  [Express + Prisma ORM + graphql js SDL modulerized - graphql api](https://github.com/Bonekyaw/node-express-graphql-prisma)  
@@ -43,11 +51,6 @@ In this template, you will see ...
 `Mobile Application Development`
 
 [React Native Expo](https://github.com/Bonekyaw/react-native-expo) - Now you are here
-
-`Upcoming Starter Kits`
-
-- [Next js FullStack Starter Kits](https://github.com/Bonekyaw)
-- [Nest js FullStack Starter Kits](https://github.com/Bonekyaw)
 
 ( Now I'm on the way of these two Starter Kits. Stay tuned, please. )
 
@@ -93,7 +96,7 @@ Or you can create a new expo app by running:
 npx create-expo-app@latest
 ```
 
-And then you can copy files or codes in Starter Kits. Don't forget to install packages manually.  
+And then you can copy files or codes in Starter Kits. Don't forget to install packages manually.
 
 If you are a burmese developer, you should watch my explanation video on YouTube [Here](https://youtu.be/v5X3uMJJWAY). I promise new features will come in the future if I have much time.
 
@@ -136,7 +139,7 @@ DM
 
 `providers/redux/query/apiSlice.ts`  
 `providers/redux/store.ts`  
-`(tabs)/(chat)/post.tsx`  
+`(tabs)/(chat)/post.tsx`
 
 #### React query
 
@@ -144,7 +147,7 @@ DM
 `hooks/useRefreshByUser.ts`  
 `hooks/useRefreshOnFocus.ts`  
 `(tabs)/(money)/call-api.tsx`  
-`(tabs)/(money)/[id].tsx`  
+`(tabs)/(money)/[id].tsx`
 
 #### FlashList ( @shopify )
 
