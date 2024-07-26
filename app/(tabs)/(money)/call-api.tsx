@@ -112,7 +112,7 @@ export default function CallApi() {
   }
 
   const saveUserInRedux = (item: any) => {
-    router.push(`(tabs)/(money)/${item.id}`);
+    router.push(`/${item.id}`);
   }
 
   return (

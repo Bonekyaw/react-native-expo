@@ -59,7 +59,7 @@ export default function Post() {
 
   const saveUserInRedux = (item: any) => {
     dispatch(setUser(item));
-    router.push("(tabs)/(chat)/detail");
+    router.push("/detail");
   };
 
   return (

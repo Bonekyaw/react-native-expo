@@ -35,7 +35,7 @@ export default function ChatScreen() {
       </ThemedText>
       <Pressable
         style={styles.button}
-        onPress={() => router.push("(tabs)/(chat)/post")}
+        onPress={() => router.push("/post")}
       >
         <ThemedText style={styles.buttonText}>
           Click to see how to call API

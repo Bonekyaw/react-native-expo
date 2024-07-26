@@ -20,7 +20,7 @@ export default function MoneyScreen() {
       <ThemedText style={styles.titleText}>Money makes almost everything.</ThemedText>
       <Pressable
         style={styles.button}
-        onPress={() => router.push("(tabs)/(money)/call-api")}
+        onPress={() => router.push("/call-api")}
       >
         <ThemedText style={styles.buttonText}>Click to see how to call API</ThemedText>
       </Pressable>
