@@ -49,7 +49,9 @@ export default function QueryScreen() {
   });
 
   if (error) {
-    return <ThemedText style={{ marginTop: 200 }}>Failed to fetch data</ThemedText>;
+    return (
+      <ThemedText style={{ marginTop: 200 }}>Failed to fetch data</ThemedText>
+    );
   }
   if (loading) {
     return <ThemedText style={{ marginTop: 200 }}>Loading...</ThemedText>;
@@ -60,7 +62,9 @@ export default function QueryScreen() {
       <ThemedText style={styles.marginTop5}>ID : {item._id}</ThemedText>
       <ThemedText style={styles.marginTop5}>Phone : {item.phone}</ThemedText>
       <ThemedText style={styles.marginTop5}>Role : {item.role}</ThemedText>
-      <ThemedText style={styles.marginTop5}>----------------------------</ThemedText>
+      <ThemedText style={styles.marginTop5}>
+        ----------------------------
+      </ThemedText>
     </ThemedView>
   );
 

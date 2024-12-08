@@ -20,7 +20,9 @@ export default function MutationScreen() {
     useMutation(register);
 
   if (error) {
-    return <ThemedText style={{ marginTop: 200 }}>Failed to fetch data</ThemedText>;
+    return (
+      <ThemedText style={{ marginTop: 200 }}>Failed to fetch data</ThemedText>
+    );
   }
   if (loading) {
     return <ThemedText style={{ marginTop: 200 }}>Loading...</ThemedText>;
@@ -32,7 +34,9 @@ export default function MutationScreen() {
         style={styles.button}
         onPress={() => registerByPhone({ variables: { phone: "09778661235" } })}
       >
-        <ThemedText style={styles.buttonText}>Click To Call graphql API</ThemedText>
+        <ThemedText style={styles.buttonText}>
+          Click To Call graphql API
+        </ThemedText>
       </Pressable>
 
       {data && (

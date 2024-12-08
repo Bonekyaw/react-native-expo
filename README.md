@@ -1,6 +1,6 @@
 # This is React Native Expo Starter Kits
 
-This is for Mobile Application Development. It can be used for developing a production app as well as learning how to do.  
+This is for Mobile Application Development. It can be used for developing a production app as well as learning how it works.  
 If you find it useful, give me a **GitHub star**, please.
 
 In this template, you will see ...
@@ -13,14 +13,14 @@ In this template, you will see ...
 - FlashList ( @shopify )
 - React context
 - expo secure store
-- Lottie animation
 - Skeleton
 - react hook form
 - Authentication
 - Custom Font
 - Dark mode
 - Rest api client
-- graphql client ( Apollo client ) etc.
+- graphql client ( Apollo client )
+- Retry mechanism for fetching api etc.
 
 ## Find more other Starter kits of mine ?
 
@@ -60,17 +60,17 @@ In this template, you will see ...
 
 #### Is setting up my environment required?
 
-> Setting up your environment is not required if you're using a Framework. With a React Native Framework, you don't need to setup Android Studio or XCode as a Framework will take care of building the native app for you.
+> Setting up your environment is not required if you're using a Framework. With Expo Framework, you don't need to setup Android Studio or XCode as a Framework will take care of building the native app for you.
 >
 > If you have constraints that prevent you from using a Framework, or you'd like to write your own Framework, then setting up your local environment is a requirement. After your environment is set up, learn how to get started without a framework.
 
-But my recommendation is that you should set up if possible. Then you can build your app using eas-build as well as xcode or android studio.
+But my recommendation is that you should set up if possible. Then you can build your app using not only eas-build but also xcode or android studio.
 
-See [here](https://docs.expo.dev/deploy/build-project/) to learn how to deploy.
+See [here](https://docs.expo.dev/tutorial/eas/introduction/) to learn how to deploy.
 
 #### How to run Starter Kits
 
-First of all, you should git clone.
+First of all, you should clone it from my github.
 
 ```bash
 git clone https://github.com/Bonekyaw/react-native-expo.git
@@ -86,6 +86,14 @@ Now, you can start your project by running:
 npx expo start
 ```
 
+You can upgrade latest version if expo is outdated. [Read more](https://docs.expo.dev/workflow/upgrading-expo-sdk-walkthrough/)
+
+```bash
+npm install expo@latest
+
+npx expo install --fix
+```
+
 > To view your app on a mobile device, we recommend starting with Expo Go. As your application grows in complexity and you need more control, you can create a development build.
 >
 > Open the project in a web browser by pressing w in the Terminal UI. Press a for Android (Android Studio is required), or i for iOS (macOS with Xcode is required).
@@ -96,7 +104,7 @@ Or you can create a new expo app by running:
 npx create-expo-app@latest
 ```
 
-And then you can copy files or codes in Starter Kits. Don't forget to install packages manually.
+And then you can copy files or codes in my Starter Kits. Don't forget to install packages manually.
 
 If you are a burmese developer, you should watch my explanation video on YouTube [Here](https://youtu.be/v5X3uMJJWAY). I promise new features will come in the future if I have much time.
 
@@ -111,29 +119,26 @@ DM
 
 #### Authentication process
 
-`(auth)/login.tsx`  
-`providers/SessionProvider.tsx`  
+`login.tsx`  
+`providers/ctx.tsx`  
 `(hook)/useStorageState.ts`
 
 #### routes in App
 
-`(auth)/login`  
+`login`  
 `(tabs)`  
 `(tabs)/profile`  
 `(tabs)/(money)`  
 `(tabs)/(money)/call-api`  
 `(tabs)/(money)/1`  
-`(tabs)/(chat)`  
-`(tabs)/(chat)/post`  
-`(tabs)/(chat)/detail`
+`(tabs)/explore`  
 
 #### redux toolkit
 
 `providers/redux/store.ts`  
 `providers/redux/userSlice.ts`  
 `hooks/useRedux.ts`  
-`(tabs)/(chat)/post.tsx`  
-`(tabs)/(chat)/detail.tsx`
+`(tabs)/explore`  
 
 #### RTK query
 
@@ -152,23 +157,18 @@ DM
 #### FlashList ( @shopify )
 
 `(tabs)/(money)/call-api.tsx`  
-`(tabs)/(chat)/post.tsx`
 
 #### React context
 
-`providers/SessionProvider.tsx`
+`providers/ctx.tsx`
 
 #### expo secure store
 
 `(hook)/useStorageState.ts`
 
-#### Lottie animation
-
-`(tabs)/(chat)/index.tsx`
-
 #### react hook form
 
-`(auth)/login.tsx`
+`login.tsx`
 
 #### Custom Font & Dark mode
 
