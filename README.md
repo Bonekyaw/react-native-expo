@@ -118,7 +118,7 @@ npx create-expo-app@latest
 
 And then you can copy files or codes in my Starter Kits. Don't forget to install packages manually.
 
-If you are a burmese developer, you should watch my explanation video on YouTube [Here](https://youtu.be/v5X3uMJJWAY). I promise new features will come in the future if I have much time.
+If you are a burmese developer, you should watch my explanation video on YouTube [Here](https://youtu.be/5k4ixhrcBNI?si=8d0R7EjapLp10Nfm). I promise new features will come in the future if I have much time.
 
 If you have something hard to solve,
 DM  
