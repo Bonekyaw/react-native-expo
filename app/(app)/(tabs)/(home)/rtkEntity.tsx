@@ -104,9 +104,6 @@ const RtkEntity = () => {
         RTK Query with createEntityAdapter
       </ThemedText>
       {content}
-      <Link href="/rtk" style={styles.btn}>
-        Press here to learn RTK Query
-      </Link>
     </ThemedView>
   );
 };
