@@ -1,22 +1,26 @@
-# This is React Native Expo Starter Kits
+# React Native Expo Starter Kits
 
-This is for Mobile Application Development. It can be used for developing a production app as well as learning how it works.  
+Do you want single code base for both android and ios application? Here you are.  
 If you find it useful, give me a **GitHub star**, please.
 
 In this template, you will see ...
 
-- Expo framework
+- Expo framework ( New Architecture )
+- json-server ( For testing API )
 - Redux toolkit
+  - createSlice & createAsyncThunk
+  - createSlice & createAsyncThunk & createEntityAdapter
 - RTK query
-- React query
-- expo router navigation
-- FlashList ( @shopify )
+  - createApi
+  - createApi & createEntityAdapter
+- React query ( I'll add soon. )
+- FlashList ( @shopify ) ( I'll add soon. )
 - React context
 - expo secure store
-- Skeleton
 - react hook form
-- Authentication
+- Authentication ( Access token & Refresh token )
 - Custom Font
+- IconSymbol ( SF Symbols )
 - Dark mode
 - Rest api client
 - graphql client ( Apollo client )
@@ -82,6 +86,14 @@ npm start
 
 Now, you can start your project by running:
 
+Open new terminal in vscode and Run json-server for API
+
+```bash
+npx json-server json-server-to-test-api/db.json --port 8080
+```
+
+And then you can run metro bundler for expo app
+
 ```bash
 npx expo start
 ```
@@ -117,46 +129,53 @@ DM
 
 ### Some features in some files
 
+### json-server
+
+`json-server-to-test-api/db.json`
+
+```bash
+npx json-server json-server-to-test-api/db.json --port 8080
+```
+
 #### Authentication process
 
 `login.tsx`  
 `providers/ctx.tsx`  
-`(hook)/useStorageState.ts`
+`(hook)/useStorageState.ts`  
+`api/auth.ts`
 
 #### routes in App
 
-`login`  
-`(tabs)`  
-`(tabs)/profile`  
-`(tabs)/(money)`  
-`(tabs)/(money)/call-api`  
-`(tabs)/(money)/1`  
-`(tabs)/explore`  
+`/login`  
+`/`  
+`/normalize`  
+`/rtk`  
+`/rtkEntity`  
+`/explore`
 
 #### redux toolkit
 
 `providers/redux/store.ts`  
-`providers/redux/userSlice.ts`  
+`providers/redux/user/userSlice.ts`  
+`providers/redux/user/entitySlice.ts`  
 `hooks/useRedux.ts`  
-`(tabs)/explore`  
+`/api/index.ts`
 
 #### RTK query
 
 `providers/redux/query/apiSlice.ts`  
-`providers/redux/store.ts`  
-`(tabs)/(chat)/post.tsx`
+`providers/redux/query/baseQueryWithRefresh.ts`  
+`providers/redux/user/rtkSlice.ts`  
+`providers/redux/user/rtkEntitySlice.ts`  
+`providers/redux/store.ts`
 
 #### React query
 
-`api/fetch.ts`  
-`hooks/useRefreshByUser.ts`  
-`hooks/useRefreshOnFocus.ts`  
-`(tabs)/(money)/call-api.tsx`  
-`(tabs)/(money)/[id].tsx`
+`I will add again. Please wait.`
 
 #### FlashList ( @shopify )
 
-`(tabs)/(money)/call-api.tsx`  
+`I will add again. Please wait.`
 
 #### React context
 

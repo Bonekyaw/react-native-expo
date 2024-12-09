@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "uuid1",
+      "name": "Phone Nyo "
+    },
+    {
+      "id": "uuid2",
+      "name": "Ko Nay "
+    },
+    {
+      "id": "uuid3",
+      "name": "Jue Jue "
+    },
+    {
+      "id": "uuid4",
+      "name": "Mi Khant "
+    },
+    {
+      "id": "uuid5",
+      "name": "Nant Su "
+    }
+  ],
+  "products": [
+    {
+      "id": "uuid1",
+      "name": "iPhone "
+    },
+    {
+      "id": "uuid2",
+      "name": "iPad "
+    },
+    {
+      "id": "uuid3",
+      "name": "iMac "
+    },
+    {
+      "id": "uuid4",
+      "name": "iWatch "
+    },
+    {
+      "id": "uuid5",
+      "name": "Mac book Pro "
+    }
+  ]
+}

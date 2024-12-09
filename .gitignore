@@ -36,3 +36,6 @@ expo-env.d.ts
 # @end expo-cli
 
 expo-rn.code-workspace
+
+# Should include config/
+# Should include json-server-to-test-api/
